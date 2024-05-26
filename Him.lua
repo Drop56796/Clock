@@ -19,19 +19,19 @@ local entity = spawner.Create({
 	},
 	Lights = {
 		Flicker = {
-			Enabled = true,
+			Enabled = false,
 			Duration = 0
 		},
-		Shatter = true,
+		Shatter = false,
 		Repair = false
 	},
 	CameraShake = {
 		Enabled = true,
 		Range = 100,
-		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
+		Values = {0, 0, 0, 0} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 1000000,
+		Speed = 9999999999,
 		Delay = 0,
 		Reversed = false
 	},
@@ -44,8 +44,8 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 99999999,
-		Amount = 0
+		Range = 9999999999,
+		Amount = 9999999999
 	},
 	Crucifixion = {
 		Enabled = true,
