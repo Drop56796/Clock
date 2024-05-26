@@ -19,8 +19,8 @@ local entity = spawner.Create({
 	},
 	Lights = {
 		Flicker = {
-			Enabled = true,
-			Duration = 1
+			Enabled = false,
+			Duration = 0
 		},
 		Shatter = true,
 		Repair = false
@@ -44,8 +44,8 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 37,
-		Amount = 100
+		Range = 99999999,
+		Amount = 0
 	},
 	Crucifixion = {
 		Enabled = true,
